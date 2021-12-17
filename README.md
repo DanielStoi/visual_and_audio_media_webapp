@@ -1,7 +1,7 @@
 # Visual and audio media webapp
 
 ## Credits
-This was part of an group assignment at the University of Sydney, particularly:
+This was part of an group assignment at the University of Sydney,for the subject ISYS2120.
 
 -Designed for the University of Sydney, School of Computer Sciences
 
@@ -9,7 +9,8 @@ This was part of an group assignment at the University of Sydney, particularly:
 
 -Initial Schema by Ryan Skelton
 
-My group members where:
+My group members and contributers where:
+
 -David, Ben, Vigesh
 
 
@@ -52,8 +53,8 @@ Presently, there are 4 possible types of metadata:
 1. Description
 
 # What we had to do within the assignment
-Acouple of functions, routes, and templates where already completed. Essentially all of the server side code was done by as part of the template, including the sample data. The only think that was added was password hashing and the ability to add songs and users, though a sql function.
+In addition to the skeleton of the program, acouple of functions, routes, and html templates where already completed. Essentially all of the server side (sql) code was done already, including the sample data. What the group added in reference to the server side code was password hashing and the ability to add songs and users, though SQL functions.
 
-In the assignment, we had to code 10 tasks within the database.py file, which was a majority of the database application programming code, acouple of routes in the routes.py file, in addition to modifing and creating templates that would be refereced by the routes.py functions to render the corresponding pages.
+In the assignment, we had to code 10 tasks within the database.py file, which was a majority of the database application programming code and acouple of routes in the routes.py file. This is in addition to modifing and creating templates that would be refereced by the routes.py functions to render the corresponding pages.
 
 
