@@ -51,3 +51,9 @@ Presently, there are 4 possible types of metadata:
 1. Artwork
 1. Description
 
+# What we had to do within the assignment
+Acouple of functions, routes, and templates where already completed. Essentially all of the server side code was done by as part of the template, including the sample data. The only think that was added was password hashing and the ability to add songs and users, though a sql function.
+
+In the assignment, we had to code 10 tasks within the database.py file, which was a majority of the database application programming code, acouple of routes in the routes.py file, in addition to modifing and creating templates that would be refereced by the routes.py functions to render the corresponding pages.
+
+
