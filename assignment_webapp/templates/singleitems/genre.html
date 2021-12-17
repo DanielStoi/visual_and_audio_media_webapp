@@ -1,0 +1,63 @@
+{% include 'top.html' %}
+<div class="content">
+    {% if allitems | length > 0 %}
+                <h2 class="title"> {{page.title}}</h2>
+        {% else %}
+            <h2 class="title"> Invalid Genre ID</h2>
+    {% endif %}
+    <div class="container details">
+        <!--  Example of a table with clickable rows: -->
+        <table class="styled">
+                    <thead>
+                        <tr>
+                            <td>Item ID </td>
+                            <td>Item title</td>
+                            <td>Item type</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        {% for instance in allitems %}
+                            {% if instance.item_type == 'Movie' %}
+                             <!--  intert with movies -->
+                                <tr class="clickable-tr" data-href="{{ url_for('single_movie', movie_id=instance.item_id)}}">
+                                    <td style="text-align: center">{{ instance.item_id }}</td>
+                                    <td>{{instance.item_title}}</td>
+                                    <td>{{instance.item_type}}</td>
+                                </tr>
+                            {% endif %}
+                            {% if instance.item_type == 'Tv Show' %}
+                             <!--  intert with tv show -->
+                                <tr class="clickable-tr" data-href="{{ url_for('single_tvshow', tvshow_id=instance.item_id)}}">
+                                    <td style="text-align: center">{{ instance.item_id }}</td>
+                                    <td>{{instance.item_title}}</td>
+                                    <td>{{instance.item_type}}</td>
+                                </tr>
+                            {% endif %}
+                            {% if instance.item_type == 'Song' %}
+                             <!--  intert with song -->
+                                <tr class="clickable-tr" data-href="{{ url_for('single_song', song_id=instance.item_id)}}">
+                                    <td style="text-align: center">{{ instance.item_id }}</td>
+                                    <td>{{instance.item_title}}</td>
+                                    <td>{{instance.item_type}}</td>
+                                </tr>
+                            {% endif %}
+                            {% if instance.item_type == 'Podcast' %}
+                             <!--  intert with podcast -->
+                                <tr class="clickable-tr" data-href="{{ url_for('single_podcast', podcast_id=instance.item_id)}}">
+                                    <td style="text-align: center">{{ instance.item_id }}</td>
+                                    <td>{{instance.item_title}}</td>
+                                    <td>{{instance.item_type}}</td>
+                                </tr>
+                            {% endif %}
+                        {% endfor %}
+                    </tbody>
+        
+                </table>
+        <!-- TODO Query (10) -->
+        <!-- First check should be a valid instance -->
+        <!-- Second check should be what type of genre? -->
+        
+    </div>
+</div>
+{% include 'bottom.html'%}

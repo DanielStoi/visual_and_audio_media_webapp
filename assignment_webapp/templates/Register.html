@@ -1,0 +1,48 @@
+{% include 'top.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<div class="container" >
+    <div class="row">
+        <p><h1> Register for the media server</h1></p>
+        <form action="/submit" method="POST">
+            <br>
+            <div class="form-group">
+                <label class="form-label">First name:</label>
+                <input type="text" name="first_name"  class="form-control" id="first_name">
+            </div>
+            </br>
+            <br>
+            <div class="form-group">
+                <label class="form-label">Last name:</label>
+                <input type="text"  name="lname" class="form-control" id="last_name">
+            </div>
+            </br>
+
+            <br>
+            <div class="form-group">
+                <label class="form-label">Password:</label>
+                <input type="text" name="password" class="form-control" id="password">
+            </div>
+            </br>
+
+            <br>
+
+
+            <div class="checkbox">
+                <label class="form-label">Is a super user?</label>
+                <label><input type="checkbox" name="check" value="1" id="check">True</label>
+
+
+            </div>
+            </br>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+{% include 'bottom.html'%}
