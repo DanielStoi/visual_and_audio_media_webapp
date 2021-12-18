@@ -55,7 +55,7 @@ Presently, there are 4 possible types of metadata:
 # What we had to do within the assignment
 In addition to the skeleton/structure of the program, some of the  functions, routes, and html templates where already completed. Essentially all of the server side (sql) code was done already, including the sample data. What the group added in reference to the server side code was password hashing and the ability to add songs and users, though SQL functions.
 
-In the assignment, we had to code 10 tasks within the database.py file, which was a significant chunk of the database application programming code and acouple of routes in the routes.py file. This is in addition to modifing and creating templates that would be refereced by the routes.py functions to render the corresponding pages.
+In the assignment, we had to code 10 tasks within the database.py file, which was a significant chunk of the database application programming code and acouple of routes in the routes.py file. This is in addition to modifing and creating templates that would be referenced by the routes.py functions to render the corresponding pages.
 
 The group also added new functionalities, which involved adding functions to the database.py, routes.py files and creating html templates.
 
