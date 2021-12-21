@@ -13,6 +13,26 @@ My group members and contributers where:
 
 -David, Ben, Vigesh
 
+### Demo
+Here are a bunch of screenshots that show different functionalities of the webapp.
+
+This is the home screen after logging in.
+
+![home](https://github.com/DanielStoi/visual_and_audio_media_webapp/blob/main/demo%20images/cature%20home.PNG)
+
+In addition to this, clicking on any of the menu icons on the top will take you to a list of all the media of the corresponding category (eg movies, tv shows, songs). Clicking on any of the media items in the main section will take you to a separate page that has all the details about that individual media item.
+
+This is the search functionlity (can choose to search for movies, songs, tv shows, podcasts in a dropdown menu next to search).
+
+![search](https://github.com/DanielStoi/visual_and_audio_media_webapp/blob/main/demo%20images/capture%20search.PNG)
+
+Now that a bunch of media items are on the screen, you can click on any item to get all the relevent information about that individual item.
+
+![song](https://github.com/DanielStoi/visual_and_audio_media_webapp/blob/main/demo%20images/cature%20song.PNG)
+
+As seen from the above screenshot, the genres are listed for every media item. However, genres are also clickable, which takes you to a page that lists all the media items of that genre.
+
+![genre](https://github.com/DanielStoi/visual_and_audio_media_webapp/blob/main/demo%20images/cature%20genre.PNG)
 
 ## Outline
 
@@ -22,7 +42,6 @@ various audio and video media.
 ### Schema Description
 
 ![ERD](demo%20images/ISYS2120_a3_erd.png)
-
 As per the above schema you have various consumable media:
 
 1. Movies
